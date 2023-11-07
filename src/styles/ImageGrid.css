@@ -1,0 +1,55 @@
+@import "App.css";
+
+.card__title {
+    margin: 0 0 10px 0;
+}
+
+.card__image {
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cards {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: rgba(143, 143, 143, 0.2) 0px 14px 20px 0px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    color: white;
+    box-sizing:border-box;
+    cursor: pointer;
+}
+
+.cards:hover {
+    transform: translateY(-3px);
+}
+
+.overlay {
+    position: absolute;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 0;
+    left: 0;
+    background-color: #00000085;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+
+.likes {
+    position: absolute;
+    top: 0;
+    right: 16px;
+    color: #000000bd;
+    font-weight: bold;
+}
+
+.likes > p > span {
+    color: red
+}
+
+
+
