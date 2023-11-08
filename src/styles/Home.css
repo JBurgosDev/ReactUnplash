@@ -16,3 +16,21 @@
     cursor: pointer;
     box-shadow: rgba(143, 143, 143, 0.3) 0px 14px 20px 0px;
 }
+
+.selectInput {
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: rgba(143, 143, 143, 0.3) 0px 14px 20px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .search {
+        width: 200px;
+    }
+
+    .contentFilter {
+        margin-bottom: 10px;
+        justify-content: flex-start !important;
+    }
+}

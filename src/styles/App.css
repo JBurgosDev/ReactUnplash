@@ -3,7 +3,6 @@
 }
 
 .row {
-    margin: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -16,6 +15,10 @@
 
 .vertical-top {
     vertical-align: text-top;
+}
+
+.vertical-middle {
+    vertical-align: middle;
 }
 
 .divider {
@@ -33,11 +36,17 @@
     margin-top: 40px;
 }
 
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.m-1 {
+    margin: 10px;
+}
+
 .mr-1 {
     margin-right: 10px;
 }
-
-
 
 .mt-2 {
     margin-top: 20px;
@@ -57,6 +66,14 @@
 
 .justify-center {
     justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .col-4 {
