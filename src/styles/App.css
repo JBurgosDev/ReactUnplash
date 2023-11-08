@@ -1,9 +1,75 @@
 .container {
+    margin: 15px;
 }
 
 .row {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    box-sizing:border-box;
+}
+
+.flex-direction-row {
+     flex-direction: row;
+}
+
+.vertical-top {
+    vertical-align: text-top;
+}
+
+.divider {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.col-4 {
     display: grid;
     gap: 3rem;
-    grid-auto-rows: 22rem;
     grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+    box-sizing:border-box;
 }
+
+.col-2 {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
+    box-sizing:border-box;
+}
+

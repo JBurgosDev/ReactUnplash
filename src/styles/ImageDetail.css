@@ -1,0 +1,57 @@
+.card_image {
+    object-fit: fill;
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    width: 100%;
+    background-color: #c3d1f8;
+    border-radius: 10px;
+    box-shadow: rgba(143, 143, 143, 0.6) 0px 14px 20px 0px;
+    box-sizing:border-box;
+    padding: 5px;
+}
+
+.content {
+    width: 600px;
+}
+
+div > span {
+    color: red;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tags {
+    background: rgba(0, 0, 0, 0.25);
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.profileImage {
+    border-radius: 100%;
+    width: 51px;
+}
+
+.profile_text {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .card_image {
+         height: 400px;
+    }
+}
+
+
