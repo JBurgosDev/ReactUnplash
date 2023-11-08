@@ -21,10 +21,10 @@ function Home() {
         <>
             <div className="container">
                 <div className="row">
-                    <div className="col-2">
+                    <div className="col-2 mb-1">
                         <div>
                             <input type="text" ref={searchInput} name="Search" id="" placeholder="Search images" className="search"/>
-                            <input type="button" className="search-input" value="Buscar" onClick={setSearchValue} />
+                            <input type="button" className="search-input" value="Search" onClick={setSearchValue} />
                         </div>
                         <div className="d-flex justify-end align-center contentFilter">
                             <div className="d-flex align-center">

@@ -11,7 +11,7 @@ function useInfiniteScroll(url, search = '', filter = 'latest', perPage = 16) {
 
         setIsLoading(true);
 
-        if (search !== '') {
+        if (search.trim() !== '') {
             AXIOS.get(`search/${url}?page=${page}&per_page=${perPage}&query=${search}&order_by=${filter}`)
                 .then((res) => {
                     setData((prevItems) => [...prevItems, ...res.data.results]);
@@ -37,7 +37,7 @@ function useInfiniteScroll(url, search = '', filter = 'latest', perPage = 16) {
             try {
                 let res = null;
 
-                if (search !== '') {
+                if (search.trim()  !== '') {
                     res = await AXIOS.get(
                         `search/${url}?page=${filter ? 1 : page}&per_page=${perPage}&query=${search}&order_by=${filter}`
                     );
