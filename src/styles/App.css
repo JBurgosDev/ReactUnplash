@@ -73,3 +73,7 @@
     box-sizing:border-box;
 }
 
+.link-d-none {
+    text-decoration: none;
+}
+

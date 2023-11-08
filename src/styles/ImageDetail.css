@@ -48,6 +48,18 @@ div > span {
     margin-left: 5px;
 }
 
+.backBtn {
+    background: rgba(0, 0, 0, 0.30);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(143, 143, 143, 0.2) 0px 14px 20px 0px;
+}
+
 @media only screen and (max-width: 768px) {
     .card_image {
          height: 400px;
